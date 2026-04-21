@@ -51,7 +51,7 @@ plt.savefig('temperatura_vs_tiempo.png', dpi=150)
 plt.show()
 plt.close()
 
-print("✔ Gráfica guardada: temperatura_vs_tiempo.png")
+print("Gráfica guardada: temperatura_vs_tiempo.png")
 
 # --- Animación GIF del enfriamiento ---
 fig_anim, ax_anim = plt.subplots(figsize=(8, 5))
@@ -113,7 +113,7 @@ anim = animation.FuncAnimation(
 anim.save('enfriamiento_cafe.gif', writer='pillow', fps=18)
 plt.close()
 
-print("✔ Animación guardada: enfriamiento_cafe.gif")
+print("Animación guardada: enfriamiento_cafe.gif")
 
 # --- Modelo predictivo: Enfriamiento de café ---
 print("\n===== MODELO PREDICTIVO: CAFÉ =====")
@@ -151,7 +151,7 @@ plt.tight_layout()
 plt.savefig('escenario_temperatura_ambiente.png', dpi=150)
 plt.close()
 
-print("✔ Gráfica guardada: escenario_temperatura_ambiente.png")
+print("Gráfica guardada: escenario_temperatura_ambiente.png")
 
 # --- Escenario B: Comparar distintas constantes de enfriamiento ---
 constantes = [0.03, 0.07, 0.15]   # taza térmica, cerámica, vaso delgado
@@ -175,4 +175,4 @@ plt.tight_layout()
 plt.savefig('escenario_constante_k.png', dpi=150)
 plt.close()
 
-print("✔ Gráfica guardada: escenario_constante_k.png")
+print("Gráfica guardada: escenario_constante_k.png")
